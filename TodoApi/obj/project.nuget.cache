@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OhdN3jifRpG9om4/+C+E7BjjlpoNiKypNuZvblh2oj0a+MHuKGcHVRjCtfYRBq/JgsXoKBkpdM09YAApDa+o0g==",
+  "dgSpecHash": "p7N/HLf7z8OaQ1JETg3blqO1sUXdxCOV0Evji5FsygxSi0SzhxH6UmRo/YApYkTRPYxyZWo6cqHi2i6npw5uAw==",
   "success": true,
-  "projectFilePath": "C:\\Repos\\TodoApi\\TodoApi\\TodoApi.csproj",
+  "projectFilePath": "C:\\Users\\sersh\\source\\repos\\TodoApi\\TodoApi\\TodoApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sersh\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\7.0.5\\microsoft.aspnetcore.diagnostics.entityframeworkcore.7.0.5.nupkg.sha512",
     "C:\\Users\\sersh\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.5\\microsoft.entityframeworkcore.7.0.5.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Repos\\TodoApi\\TodoApi\\TodoApi.csproj": {}
+    "C:\\Users\\sersh\\source\\repos\\TodoApi\\TodoApi\\TodoApi.csproj": {}
   },
   "projects": {
-    "C:\\Repos\\TodoApi\\TodoApi\\TodoApi.csproj": {
+    "C:\\Users\\sersh\\source\\repos\\TodoApi\\TodoApi\\TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repos\\TodoApi\\TodoApi\\TodoApi.csproj",
+        "projectUniqueName": "C:\\Users\\sersh\\source\\repos\\TodoApi\\TodoApi\\TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "C:\\Repos\\TodoApi\\TodoApi\\TodoApi.csproj",
+        "projectPath": "C:\\Users\\sersh\\source\\repos\\TodoApi\\TodoApi\\TodoApi.csproj",
         "packagesPath": "C:\\Users\\sersh\\.nuget\\packages\\",
-        "outputPath": "C:\\Repos\\TodoApi\\TodoApi\\obj\\",
+        "outputPath": "C:\\Users\\sersh\\source\\repos\\TodoApi\\TodoApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sersh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -69,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
