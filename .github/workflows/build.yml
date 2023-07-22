@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        dotnet-version: [ '3.1.x', '6.0.x' ]
+        dotnet-version: [ '6.0.x' ]
 
     steps:
     - uses: actions/checkout@v3
@@ -32,11 +32,11 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
     - name: Test
-      run: dotnet test --logger trx --results-directory "output/Tests-${{ matrix.dotnet-version }}"
+      run: dotnet TodoApiTests --logger trx --results-directory "output/Tests-${{ matrix.dotnet-version }}"
     - name: Upload dotnet test results
       uses: actions/upload-artifact@v3
       with:
         name: dotnet-results-${{ matrix.dotnet-version }}
-        path: output/Tests-${{ matrix.dotnet-version }}
+        path: output/output/Tests-${{ matrix.dotnet-version }}
         # Use always() to always run this step to publish test results when there are test failures
       if: ${{ always() }}
