@@ -29,4 +29,4 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
     - name: Test
-      run: dotnet test ~/TodoApi/TodoApi/TodoApiTests/TodoApiTests.csproj --verbosity detailed --logger "html;logfilename=testResults.html"
+      run: dotnet test ~/TodoApiTests/TodoApiTests.csproj --verbosity detailed --logger "html;logfilename=testResults.html"
