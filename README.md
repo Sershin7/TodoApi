@@ -2,4 +2,4 @@
 Test Api
 CiCd Test
 
-Testing GitHub Pages
+[![.NET](https://github.com/Sershin7/TodoApi/actions/workflows/build.yml/badge.svg?branch=test%2FaddTestStepToBuild)](https://github.com/Sershin7/TodoApi/actions/workflows/build.yml)
