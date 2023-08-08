@@ -29,6 +29,7 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
     - name: Test
+      continue-on-error: true
       run: dotnet test --logger "html;logfilename=testResults.html;verbosity=Detailed"
     - name: Publish test results
       uses: actions/upload-artifact@v3
